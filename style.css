@@ -14,6 +14,10 @@ img{
     max-width: 100%;
     width: 100%;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* Hero section */
 #hero{
@@ -69,4 +73,35 @@ text-align: center;
 width: 208px;
 height: 66px;
 border: none;
+}
+
+/* ===========Footer ================ */
+footer#footer{
+    border-radius: 16px;
+padding: 32px 0;
+background: rgba(13, 19, 33, 0.03);
+}
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    /* width: 36px;
+height: 36px; */
+}
+
+
+.footer-text h4{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 }
